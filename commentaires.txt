@@ -1,0 +1,10 @@
+Excellent projet!
+
+L'important, selon moi, est de travailler de façon modulaire. Si toutes les composantes (modules d'analyse d'un phénomène physique, modules d'effet audio) sont construites de façon à pouvoir être interchangeable, tu pourras facilement, à partir de ces modules, réaliser plusieurs schémas de connection, en fonction d'un instrument différent à la performance par exemple...
+
+Petite question comme ça... Pendant une performance, en salle par exemple, est-ce que c'est pensé pour que le système de ceuillette des donnéesdu climat soit à l'extérieur du batiment ? Il faut penser à la transmission des données vers l'outils de performance!
+
+Ton plan de travail devrait être en format texte dans les sources du projet, et non en pdf.
+
+9/10
+
