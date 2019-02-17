@@ -1,0 +1,39 @@
+	Charles Rainville
+
+Énoncé
+Composition qui réagit au mouvement des personnes dans une pièce
+
+Description 
+À l’aide de capteurs ultrasons il est possible de calculer la distance entre un capteur et un objet. À partir de ce principe, je crée une composition pour une pièce contenant 4 sensors ultrasons qui réagit selon le déplacement des gens dans la pièce. 
+
+-Analyse de besoin 
+
+Arduino 
+Capteurs ultrasons
+Puredata
+Composantes électroniques
+
+-Acquisition de connaissances
+
+https://bela.io/
+https://blog.arduino.cc/
+https://puredata.info/
+Notes de cours Pd
+
+-Modèle
+Le principe serait d’avoir 4 capteurs ultrasons qui recueille plusieurs distance qui varie selon l’emplacement des gens dans la pièces. Les données ferait varier la composition par exemple plus les capteurs captent des courtes distance le pitch est élevé et plus ils captent des grandes distances plus le pitch est bas.  
+
+-Méthodes
+Les capteurs serait poser sur des petits robot qui tourne sur un axe. Les données serait captés par un Arduino pour ensuite interagir sur la composition dans pure data.
+
+Question pour rencontre : 
+
+Standalone ? 
+Envoie données en SLIP vs OSC ? 
+BELA pour du standalone ?
+
+Comment utiliser le temps .. 
+
+Utilisation de sample dans pure data ? 
+Envoie d’accord midi dans pure data ? 
+Création de drone sur pure data 
