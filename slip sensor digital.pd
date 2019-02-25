@@ -20,16 +20,11 @@ port série utilisé sera sans doute différent pour vous. Remplacez
 #X obj -8 237 comport/comport 2 115200;
 #X msg 181 99 open 2;
 #X obj -8 305 unpack f f;
-#X obj -12 461 outlet;
-#X obj 52 462 outlet;
-#X obj 102 463 outlet;
-#X obj 156 461 outlet;
 #X connect 3 0 15 0;
 #X connect 4 0 13 0;
 #X connect 7 0 13 0;
 #X connect 10 0 11 0;
 #X connect 11 0 12 0;
-#X connect 12 0 16 0;
 #X connect 13 0 3 0;
 #X connect 14 0 13 0;
 #X connect 15 0 10 0;
